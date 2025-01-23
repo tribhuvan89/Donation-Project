@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>Registration</servlet-name>
+        <servlet-class>Registration</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>User_Login</servlet-name>
+        <servlet-class>User_Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>User_Home</servlet-name>
+        <servlet-class>User_Home</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Donation</servlet-name>
+        <servlet-class>Donation</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/Registration</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>User_Login</servlet-name>
+        <url-pattern>/User_Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>User_Home</servlet-name>
+        <url-pattern>/User_Home</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Donation</servlet-name>
+        <url-pattern>/Donation</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+</web-app>

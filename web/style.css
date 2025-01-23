@@ -1,0 +1,135 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 04-Jun-2024, 9:50:12 am
+    Author     : Lenovo
+*/
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 03-Jun-2024, 10:34:09 pm
+    Author     : Lenovo
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14-Apr-2024, 4:24:57 pm
+    Author     : Dell
+*/
+
+body{
+
+    background: url('back.jpg')no-repeat center/cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+form{
+    background-color: white;
+    display:flex;
+    border: 2px solid black;
+    justify-content: center;
+    text-align: center;
+    padding: 70px;
+    margin: 40px;
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+#navbar{
+    position: relative;
+}
+#navbar ul{
+   display: flex; 
+}
+#navbar::before{
+    container: "";
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+    height: 100%;
+    width: 100%
+    
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    
+}
+#about {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+   
+  }
+  
+  #about h1 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  
+  #about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #34495e;
+    margin-bottom: 1.5rem;
+  }
+  #details{
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+   
+  }
+  
+  #details h1 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  
+  #details p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #34495e;
+    margin-bottom: 1.5rem;
+  }
+  #contact {
+    background-color: #f9fafb;
+    padding: 1.5rem; /* Reduced padding */
+    border: 1px solid #ddd;
+    margin-top: 100px; /* Adjusted for sticky navbar */
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px; /* Reduced width */
+    margin-left: auto;
+    margin-right: auto; /* Center the section */
+    color:black; 
+    
+  }

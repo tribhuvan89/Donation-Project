@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+           
+			body {
+				font-family: Arial, sans-serif;
+				background-image: url(images/donate3.jpg);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+				margin: 0;
+				padding: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+			}
+               
+                        form{
+                            background-color: buttonhighlight;
+                            
+                            border: 2px solid black;
+                            justify-content: center;
+                             text-align: center;
+                             padding: 2%;
+                             margin: 4%;
+                             border-radius: 25px;
+                             margin-top: 100px;
+                            margin-left: 35%;
+                            margin-right: 35%;
+                        }
+			.main {
+				background-color: #fff;
+				border-radius: 15px;
+				box-shadow: 0 0 20px
+					rgba(0, 0, 0, 0.2);
+				padding: 20px;
+				width: 300px;
+			}
+
+			.main h2 {
+				color: #4caf50;
+				margin-bottom: 20px;
+			}
+
+			label {
+				display: block;
+				margin-bottom: 5px;
+				color: #555;
+				font-weight: bold;
+			}
+
+			input[type="text"],
+			input[type="email"],
+			input[type="password"],
+			select {
+				width: 100%;
+				margin-bottom: 15px;
+				padding: 10px;
+				box-sizing: border-box;
+				border: 1px solid #ddd;
+				border-radius: 5px;
+			}
+
+			button[type="submit"] {
+				padding: 15px;
+				border-radius: 10px;
+				border: none;
+				background-color: burlywood;
+				color: white;
+				cursor: pointer;
+				width: 100%;
+				font-size: 16px;
+			}
+            
+            
+        </style>
+    </head>
+   
+    <form action="Donation" method="post" align="center">
+         <h2>Donation Form</h2>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="amount">Donation Amount:</label><br>
+        <input type="number" id="amount" name="amount" min="1" required><br><br>
+        
+        <label for="currency">Currency:</label><br>
+        <select id="currency" name="currency" required>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="Rupees">Rupees</option>
+            <option value="Dollar">Dollar</option>
+            <!-- Add more currencies as needed -->
+        </select><br><br>
+        
+        <label for="message">Message (Optional):</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        
+        <button type="submit">Donate</button>
+    </form>
+</body>
+</html>
